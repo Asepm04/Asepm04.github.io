@@ -28,7 +28,10 @@ window.addEventListener('scroll',function(){
   const value = window.scrollY;
   saya1.style.zIndex=10;
   saya1.style.top=value*0.7 + 'px';
+<<<<<<< HEAD
   // aboutme1.style.left=value*0.9 +'px';
+=======
+>>>>>>> refs/remotes/origin/main
 
 
 
