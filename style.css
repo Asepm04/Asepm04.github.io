@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+
+*
+{
+    position:relative;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+}
+body
+{
+    transition: 1s transform;
+    scroll-behavior: smooth;
+    color: black;
+}
+
+
+@keyframes refresh
+{
+    from { margin-top : 20%}
+    to{margin-top:0;}
+    /* to {transform : scaleY( 20px);}
+    from {transform : scaleY( 0);} */
+}
+
+.shadow
+{
+    box-shadow: 0 2px 8px blue;
+}
+.transparent
+{
+    background-color: rgba(0,0,0,0.5) ;
+}
+
+.nv
+{
+    position: fixed;
+    margin-bottom: 30px;
+}
+
+
+.p12
+{
+    margin-top: 12%;
+}
+
+.p1
+{
+    animation : refresh 2s ease;
+    margin-top: 10px;
+    height: 100vh;
+    box-shadow: 1px 2px 7px white;
+    overflow: hidden;
+    background: linear-gradient(black,skyblue);
+}
+
+
+.tengah
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowfull
+{
+    height: 100%;
+}
+
+.p2
+{
+    margin-top: 15px;
+    overflow: hidden;
+    height: 100vh;
+    box-shadow: 1px 2px 7px white;
+    /* background: linear-gradient(yellow,orange)} */
+}
+.logoskil
+{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card
+{
+    margin: 7px;
+    width: 250px;
+    height: 250px;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.im
+{
+    font-weight: 400;
+    color: red;
+    margin:10px;
+}
+
