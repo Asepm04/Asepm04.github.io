@@ -3,7 +3,6 @@
 
 *
 {
-    position:relative;
     scroll-behavior: smooth;
     font-family: 'Poppins',sans-serif;
 }
@@ -47,11 +46,12 @@ body
 .p1
 {
     animation : refrsh 2s ease;
+    position: relative;
     margin-top: 10px;
     height: 100vh;
     box-shadow: 1px 2px 7px white;
     overflow: hidden;
-    background: linear-gradient(black,skyblue);
+    background: linear-gradient(to top,black,skyblue);
 }
 
 .about
@@ -85,7 +85,7 @@ body
     justify-content: center;
     align-items: center;
 }
-.card
+.cards
 {
     margin: 7px;
     width: 250px;
@@ -102,30 +102,60 @@ body
     font-weight: 400;
     color: red;
     margin:10px;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
 }
 a{
     text-decoration: none;
     list-style: none;
 }
-.page2
-{
-    justify-content: center;
-}
+
 #saya
 {
     margin-top:5%;
 }
+
+.pages1
+{
+    position: relative;
+}
+
 @media (max-width:600px)
 {
 #saya
 {
     margin-top:-30%;
 }
+
+
 }
 
-.skill
+@media (min-width:900px)
 {
-    height: 100vh;
+    .pages1
+{
+    min-height: 100vh;
+    position: relative;
+}
+
+}
+
+
+
+.cardUtama
+{
+    width:245px ;
+    height: 300px;
+    background: white;
+    margin: 10px;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.cardUtama:hover
+{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.pages1 .card{
+    border:none;
 }

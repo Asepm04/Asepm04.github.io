@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body text-dark ">
-  <nav id="nav" class="navbar bg-dark navbar-expand-lg bg-body-tertiary nv fixed-top">
+  <nav id="nav" class=" text-light navbar bg-dark navbar-expand-lg bg-body-tertiary nv fixed-top">
     <div class="container">
       <a class="navbar-brand text-light nvv" href="#">SepmCodeX</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,17 +30,20 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Skill</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Project
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">web design</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">real project</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Hacking</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Ms.Office</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -72,7 +75,7 @@
         </svg>
       </a>
         <a href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+        <svg style="color:skyblue;" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
           <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
         </svg>
       </a>
@@ -95,10 +98,37 @@
 
 <!-- page1 end -->
 <!-- page 1.2 -->
-<div class="container skill bg-secondary">
+<div class="container skill bg-light pages1 d-flex justify-content-center align-items-center">
   <!-- container -->
   <div class="row">
-
+   
+    <div class="col-sm-4 col-md-4 cardUtama d-flex justify-content-center" data-aos="fade-right">
+      <div class="card" style="width: 15rem;">
+        <img width="200px" height="150px" class="card-img-top" src="home/webdev.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#web">Web Development</a> </h5>
+          <p class="card-text">Front end dev , Back end dev and Full stack development</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 cardUtama d-flex justify-content-center" data-aos="fade-down">
+      <div class="card" style="width: 15rem;">
+        <img width="70px" height="150px" class="card-img-top" src="home/ceh.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#hack">Ethical hacking</a></h5>
+          <p class="card-text">Penetration testing web hack & network hacking</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-4 cardUtama d-flex justify-content-center" data-aos="fade-left">
+      <div class="card" style="width: 15rem;">
+        <img height="150px" width="150px" class="card-img-top" src="home/ms.png" alt="Card image cap" style="object-fit:cover;">
+        <div class="card-body">
+          <h5 class="card-title"><a href=""> Ms.Office</a></h5>
+          <p class="card-text">Ms.Word ,Ms.Excel & Ms.Power point </p>
+        </div>
+      </div>
+    </div>
     <!-- end row -->
   </div>
   <!-- end container -->
@@ -107,36 +137,36 @@
 <!-- page1.2 end -->
 
 <!-- page 2 -->
-<div class="container bg-dark  page2">
+<div class="container bg-dark  page2" id="web">
   <!-- container -->
-  <div class="row">
+  <div class="row ">
     <h2 class="im tengah" data-aos="fade-right">
-      Profesional Skill
+      Web Development
     </h2>
-    <div class="col-sm-2 col-md-4 card" data-aos="fade-left">
+    <div class="col-sm-2 col-md-4 cards" data-aos="fade-left">
       <img src="home/html5.png" alt="" width="200px" height="200px">
 
     </div>
-    <div class="col-sm-2 col-md-4 card" data-aos="fade-up-right">
+    <div class="col-sm-2 col-md-4 cards" data-aos="fade-up-right">
       <img src="home/bs.png" alt="" width="200px" height="200px">
     </div>
-    <div class="col-sm-2 col-md-4 card" data-aos="fade-up">
+    <div class="col-sm-2 col-md-4 cards" data-aos="fade-up">
       <img src="home/react.png" alt="" width="300px" height="300px">
     </div>
-    <div class="col-sm-2 col-md-4 card" data-aos="fade-down">
+    <div class="col-sm-2 col-md-4 cards" data-aos="fade-down">
       <img src="home/php.png" alt="" width="300px" height="300px">
     </div>
-    <div class="col-sm-2 col-md-4 card"data-aos="fade-up-left">
+    <div class="col-sm-2 col-md-4 cards"data-aos="fade-up-left">
       <img src="home/laravel.png" alt="" width="300px" height="300px">
     </div>
-    <div class="col-sm-2 col-md-4 card" data-aos="fade-down">
+    <div class="col-sm-2 col-md-4 cards" data-aos="fade-down">
       <img src="home/sql.png" alt="" width="200px" height="200px">
 
     </div>
-    <div class="col-sm-2 col-md-4 card bg-light" data-aos="fade-right">
-      <img src="home/github.png" alt="" width="300px" height="300px">
+    <div class="col-sm-2 col-md-4 cards bg-light" data-aos="fade-right">
+      <img src="home/github.png" alt="" width="200px" height="200px">
     </div>
-    <div class="col-sm-2 col-md-4 card" data-aos="fade-up">
+    <div class="col-sm-2 col-md-4 cards" data-aos="fade-up">
       <img src="home/git.png" alt="" width="200px" height="200px">
     </div>
     
