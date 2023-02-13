@@ -19,8 +19,6 @@
 //     nav.classList.remove('bg-secondary');
 //    }
 // });
-const p1 = document.getElementsByClassName('p1')[0];
-
 
 window.addEventListener('scroll',function(){
   const aboutme1 = document.getElementById('aboutme');
@@ -34,3 +32,4 @@ window.addEventListener('scroll',function(){
 
 
 });
+console.log(value);
